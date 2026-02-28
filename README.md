@@ -7,8 +7,11 @@ This project demonstrates practical applications of:
 - Regex-based skill extraction  
 - Domain-based evaluation logic  
 - Interactive data visualization with Plotly  
-- Clean UI design with theme support  
+- Clean UI design with theme support
 
+## 🚀 Live Demo
+
+🔗 https://resumeskillanalyzergit-mlpxj4bueyrrbcztr552l5.streamlit.app/
 
 
 ## 🚀 Features
