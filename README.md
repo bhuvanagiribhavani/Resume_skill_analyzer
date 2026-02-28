@@ -9,7 +9,7 @@ This project demonstrates practical applications of:
 - Interactive data visualization with Plotly  
 - Clean UI design with theme support  
 
----
+
 
 ## 🚀 Features
 
@@ -22,7 +22,7 @@ This project demonstrates practical applications of:
 - Interactive Plotly charts (Pie & Bar)  
 - Dark and Light theme support  
 
----
+
 
 ## 📂 Project Structure
 
@@ -48,7 +48,7 @@ Resume_skill_analyzer/
     └── charts.py           # Theme-aware Plotly chart builders
 ```
 
----
+
 
 ## 🧠 Skill Domains
 
@@ -61,7 +61,7 @@ Resume_skill_analyzer/
 | Cloud & DevOps | AWS, Azure, Docker, Kubernetes, Terraform |
 | Tools | Git, Linux, GitHub, Jira, Postman, Bash |
 
----
+
 
 ## ⚙️ Setup & Installation
 
@@ -90,7 +90,7 @@ The application will launch at:
 http://localhost:8501
 ```
 
----
+
 
 ## 📦 Dependencies
 
@@ -101,7 +101,7 @@ http://localhost:8501
 | python-docx | DOCX text extraction |
 | plotly | Interactive visualizations |
 
----
+
 
 ## 🔍 How It Works
 
@@ -112,7 +112,7 @@ http://localhost:8501
 5. A suitable job role is recommended  
 6. Results are displayed in an interactive dashboard with charts  
 
----
+
 
 ## 💡 Example Role Recommendations
 
@@ -122,7 +122,7 @@ http://localhost:8501
 - DevOps Engineer  
 - Data Analyst  
 
----
+
 
 ## 🎯 Learning Outcomes
 
@@ -135,7 +135,7 @@ This project helps in understanding:
 - Modular project architecture  
 - Building production-ready Streamlit applications  
 
----
+
 
 ## 👩‍💻 Author
 
