@@ -1,10 +1,30 @@
-# AI Resume Analyzer
+# 🤖 AI Resume Skill Analyzer  
 
-A Streamlit-based web application that analyzes resumes, extracts technical skills, calculates a strength score, and recommends suitable job roles.
+A Streamlit-based web application that analyzes resumes, extracts technical skills, calculates a strength score, and recommends suitable job roles based on detected expertise.
 
+This project demonstrates practical applications of:
+- NLP-based text processing  
+- Regex-based skill extraction  
+- Domain-based evaluation logic  
+- Interactive data visualization with Plotly  
+- Clean UI design with theme support  
 
+---
 
-## Project Structure
+## 🚀 Features
+
+- Upload resumes in PDF / DOCX / TXT format  
+- Automatic text extraction and preprocessing  
+- Intelligent skill matching using regex patterns  
+- Domain-wise skill categorization  
+- Resume strength score calculation (0–92%)  
+- Smart job role recommendation  
+- Interactive Plotly charts (Pie & Bar)  
+- Dark and Light theme support  
+
+---
+
+## 📂 Project Structure
 
 ```
 Resume_skill_analyzer/
@@ -16,7 +36,7 @@ Resume_skill_analyzer/
 │
 ├── config/                 # Configuration & constants
 │   ├── __init__.py
-│   └── skills_db.py        # Skills dictionary, role map, scoring constants
+│   └── skills_db.py        # Skills dictionary & role mapping
 │
 ├── styles/                 # UI styling
 │   ├── __init__.py
@@ -24,79 +44,100 @@ Resume_skill_analyzer/
 │
 └── utils/                  # Core logic
     ├── __init__.py
-    ├── analyzer.py          # Text extraction, preprocessing, skill matching, scoring, role recommendation
-    └── charts.py            # Theme-aware Plotly chart builders (pie chart, bar chart)
+    ├── analyzer.py         # Text extraction, preprocessing, skill matching & role recommendation
+    └── charts.py           # Theme-aware Plotly chart builders
 ```
-
-## Skill Domains
-
-| Domain              | Example Skills                                      |
-|---------------------|-----------------------------------------------------|
-| Programming         | Python, Java, C++, JavaScript, TypeScript, Go       |
-| Web Development     | React, Angular, HTML, CSS, Node.js, Django           |
-| Machine Learning/AI | TensorFlow, PyTorch, Scikit-learn, NLP, Deep Learning|
-| Data Science        | SQL, Pandas, NumPy, Tableau, Power BI, Spark         |
-| Cloud & DevOps      | AWS, Azure, Docker, Kubernetes, Terraform            |
-| Tools               | Git, Linux, GitHub, Jira, Postman, Bash              |
 
 ---
 
-## Setup & Run
+## 🧠 Skill Domains
 
-### 1. Clone the repository
+| Domain | Example Skills |
+|--------|----------------|
+| Programming | Python, Java, C++, JavaScript, TypeScript, Go |
+| Web Development | React, Angular, HTML, CSS, Node.js, Django |
+| Machine Learning / AI | TensorFlow, PyTorch, Scikit-learn, NLP, Deep Learning |
+| Data Science | SQL, Pandas, NumPy, Tableau, Power BI, Spark |
+| Cloud & DevOps | AWS, Azure, Docker, Kubernetes, Terraform |
+| Tools | Git, Linux, GitHub, Jira, Postman, Bash |
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/bhuvanagiribhavani/Resume_skill_analyzer.git>
 cd Resume_skill_analyzer
 ```
 
-### 2. Install dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the application
+### 3. Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-The app will open at `http://localhost:8501`.
+The application will launch at:
+
+```
+http://localhost:8501
+```
 
 ---
 
-## Dependencies
+## 📦 Dependencies
 
-| Package      | Purpose                        |
-|--------------|--------------------------------|
-| streamlit    | Web UI framework               |
-| PyPDF2       | PDF text extraction            |
-| python-docx  | DOCX text extraction           |
-| plotly        | Interactive charts             |
-
----
-
-## How It Works
-
-1. **Upload** a resume (PDF / DOCX / TXT)
-2. Text is **extracted** and **preprocessed**
-3. Skills are **matched** against the skills database using regex
-4. A **strength score** is calculated (0–92%)
-5. A **job role** is recommended based on the dominant skill domain
-6. Results are displayed in a scrollable dashboard with charts
+| Package | Purpose |
+|----------|----------|
+| streamlit | Web UI framework |
+| PyPDF2 | PDF text extraction |
+| python-docx | DOCX text extraction |
+| plotly | Interactive visualizations |
 
 ---
 
-## Scoring Logic
+## 🔍 How It Works
 
-- **50%** — skill count (benchmark: 12 skills = full marks)
-- **30%** — domain breadth (benchmark: 3 domains = full marks)
-- **20%** — depth bonus (3+ skills in one domain)
-- **Hard cap** at 92% — no resume scores 100%
+1. Upload a resume (PDF / DOCX / TXT)  
+2. Resume text is extracted and cleaned  
+3. Skills are matched against a predefined skills database using regex  
+4. The dominant skill domain is identified  
+5. A suitable job role is recommended  
+6. Results are displayed in an interactive dashboard with charts  
 
 ---
 
-## License
+## 💡 Example Role Recommendations
 
-MIT
+- Machine Learning Engineer  
+- Data Scientist  
+- Full Stack Developer  
+- DevOps Engineer  
+- Data Analyst  
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helps in understanding:
+
+- Resume parsing techniques  
+- Regex-based pattern extraction  
+- Skill-domain mapping  
+- Interactive data visualization  
+- Modular project architecture  
+- Building production-ready Streamlit applications  
+
+---
+
+## 👩‍💻 Author
+
+**Bhuvanagiri Bhavani**  
+  
