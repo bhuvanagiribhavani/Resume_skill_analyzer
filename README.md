@@ -2,7 +2,7 @@
 
 A Streamlit-based web application that analyzes resumes, extracts technical skills, calculates a strength score, and recommends suitable job roles.
 
----
+
 
 ## Project Structure
 
@@ -27,21 +27,6 @@ Resume_skill_analyzer/
     ├── analyzer.py          # Text extraction, preprocessing, skill matching, scoring, role recommendation
     └── charts.py            # Theme-aware Plotly chart builders (pie chart, bar chart)
 ```
-
----
-
-## Features
-
-- **Resume Upload** — supports PDF, DOCX, and TXT formats
-- **Text Extraction** — PyPDF2 for PDF, python-docx for DOCX, direct read for TXT
-- **Preprocessing** — lowercase, remove punctuation/special characters/extra spaces
-- **Skill Detection** — regex-based matching against 70+ skills across 6 domains
-- **Strength Scoring** — weighted formula (skill count + domain breadth + depth bonus), capped at 92%
-- **Role Recommendation** — intelligent mapping based on dominant skill domains
-- **Analytics** — interactive Plotly donut chart and horizontal bar chart
-- **Dark / Light Theme** — toggle between dark and light mode via the ☀️ switch; custom CSS and chart colors adapt automatically
-
----
 
 ## Skill Domains
 
